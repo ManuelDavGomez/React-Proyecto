@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import Card1 from "../../assets/img/card1.png";
 import Back from "../../assets/img/bg_card.jpg"
-import Zx from "../src/assets/img/zx7.png";
-import Yk from "../src/assets/img/yk1.jpg";
+import Zx from "../../assets/img/zx7.png";
+import Yk from "../../assets/img/yk1.jpg";
 
 function Card() {
   return (
