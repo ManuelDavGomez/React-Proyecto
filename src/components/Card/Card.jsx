@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Card1 from "../../assets/img/card1.png";
+import Back from "../../assets/img/bg_card.jpg"
 
 function Card() {
   return (
@@ -84,7 +85,7 @@ const Card_container = styled.section`
     flex-direction: column;
     width: 100%;
     height: 570px;
-    background-image: url(../src/assets/img/bg_card.jpg);
+    background-image: url(${Back});
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
