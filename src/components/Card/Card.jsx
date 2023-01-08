@@ -84,7 +84,7 @@ const Card_container = styled.section`
     flex-direction: column;
     width: 100%;
     height: 570px;
-    background-image: url("../src/assets/img/bg_card.jpg");
+    background-image: url(../src/assets/img/bg_card.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
