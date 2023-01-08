@@ -1,5 +1,5 @@
 import './App.css'
-import Index1 from './index1'
+import Index1 from '../src/Index1.jsx'
 
 function App() {
 
