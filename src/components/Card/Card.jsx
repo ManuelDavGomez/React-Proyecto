@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import Card1 from "../../assets/img/card1.png";
 import Back from "../../assets/img/bg_card.jpg"
+import Zx from "../src/assets/img/zx7.png";
+import Yk from "../src/assets/img/yk1.jpg";
 
 function Card() {
   return (
@@ -140,7 +142,7 @@ const Card_container = styled.section`
   .card2_container {
     width: 100%;
     height: 350px;
-    background-image: url("../src/assets/img/zx7.png");
+    background-image: url(${Zx});
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -175,7 +177,7 @@ const Card_container = styled.section`
     width: 100%;
     height: 200px;
     border-radius: 10px;
-    background-image: url("../src/assets/img/yk1.jpg");
+    background-image: url(${Yk});
     background-position: center;
     background-size: cover;
     margin-bottom: 30px;
